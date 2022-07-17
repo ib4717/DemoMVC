@@ -1,0 +1,20 @@
+@model DemoMVC.Models.Movie
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h3>Movie Info</h3>
+    <hr />
+    <div>
+        <p>@Html.DisplayNameFor(m => m.Id):@Html.DisplayFor(m => m.Id)</p>
+        <p>@Html.DisplayNameFor(m => m.Name):@Html.DisplayFor(m => m.Name)</p>
+        <p>@Html.DisplayNameFor(m => m.Year):@Html.DisplayFor(m => m.Year)</p>
+        <p>@Html.DisplayNameFor(m => m.Rating):@Html.DisplayFor(m => m.Rating)</p>
+    </div>
+</body>
+</html>

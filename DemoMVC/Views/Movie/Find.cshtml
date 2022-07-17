@@ -1,0 +1,8 @@
+<h2>Find Movie</h2>
+<hr />
+@using (Html.BeginForm("SearchMovie", "Movie"))
+{
+    <p>Enter Id: <input type="text" id="movieid" name="movieid" /></p>
+    <br />
+    <input type="submit" value="Find" />
+}
