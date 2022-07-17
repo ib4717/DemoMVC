@@ -1,4 +1,7 @@
-﻿<Properties StartupConfiguration="{96691360-C6E5-44E4-8DD3-47D7AE16DCFE}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{96691360-C6E5-44E4-8DD3-47D7AE16DCFE}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DemoMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="DemoMVC/DemoMVC.csproj">
     <Files>
@@ -37,10 +40,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DemoMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
