@@ -1,0 +1,11 @@
+﻿body {
+}
+
+a {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+}

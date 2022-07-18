@@ -12,6 +12,7 @@
     <None Remove="Views\Home\" />
     <None Remove="Views\Movie\" />
     <None Remove="Views\Shared\" />
+    <None Remove="Static\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -20,8 +21,17 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Movie\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\css\" />
+    <Content Remove="wwwroot\css\Main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\css\Main.css" />
   </ItemGroup>
 </Project>
