@@ -9,8 +9,10 @@
 <body>
     <h1>Main Layout</h1>
     <hr />
-    <a href="@Url.Action("Index","Home")">Home</a>
-    <a href="@Url.Action("Index","Movie")">Movie</a>
+    <div class="link-container">
+        <a href="@Url.Action("Index","Home")">Home</a>
+        <a href="@Url.Action("Index","Movie")">Movie</a>
+    </div>
     <div>
         @RenderBody()
     </div>

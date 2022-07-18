@@ -9,12 +9,14 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    @Html.ActionLink("Home", "Index", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
-    @Html.ActionLink("Find movie", "Find", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
-    @Html.ActionLink("view all movies", "List", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="link-container">
+        @Html.ActionLink("Find movie By Id", "Find", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
+        @Html.ActionLink("Find movie By Year", "FindByYear", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
+        @Html.ActionLink("View All Movies", "List", "Movie")&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
     <br />
 
-    <div style="background:blue;border-radius:10px;padding:20px;color:white">
+    <div>
 
         @RenderBody()
     </div>

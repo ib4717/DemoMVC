@@ -36,6 +36,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/FindByYear.cshtml",
+      "TargetPath": "Views\\Movie\\FindByYear.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/List.cshtml",
       "TargetPath": "Views\\Movie\\List.cshtml",
       "FileKind": "mvc"

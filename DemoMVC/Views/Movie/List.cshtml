@@ -4,18 +4,20 @@
 <hr />
 <table>
     <thead>
-    <th>
-        @Html.DisplayNameFor(m => m.Id)
-    </th>
-    <th>
-        @Html.DisplayNameFor(m => m.Name)
-    </th>
-    <th>
-        @Html.DisplayNameFor(m => m.Year)
-    </th>
-    <th>
-        @Html.DisplayNameFor(m => m.Rating)
-    </th>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Rating)
+            </th>
+        </tr>
     </thead>
     <tbody>
         @foreach (var data in @Model)

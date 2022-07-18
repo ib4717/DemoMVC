@@ -33,7 +33,7 @@ namespace DemoMVC.Controllers
                 new Movie(1, "RRR", 2022, 4),
                 new Movie(2, "Avatar", 2009, 5),
                 new Movie(3, "KGF", 2022, 4),
-                new Movie(4, "Avengers Endgame", 2022, 5),
+                new Movie(4, "Avengers Endgame", 2019, 5),
                 new Movie(5, "Spider Man No Way Home", 2022, 5),
                 new Movie(6, "War", 2021, 3)
             };
@@ -48,5 +48,19 @@ namespace DemoMVC.Controllers
             return View("Index", data);
         }
 
+        [HttpGet]
+        public IActionResult FindByYear()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult FindByYear(int movieyear)
+        {
+            List<Movie> movies = GetMovies();
+            var data = movies.Where(m => m.Year == movieyear);
+            ViewBag.Movies = data;
+            return View("FindByYear", data);
+        }
     }
 }
