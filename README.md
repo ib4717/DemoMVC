@@ -13,7 +13,7 @@ Application Folder
 ```
 
 ## Controllers
-Process incoming requests, perform operations on data provided through Models, and selects Views to render on the browser
+Process incoming requests, perform operations on data provided through Models, and selects Views to render on the browser.
 
 ## Models
 The model classes represents domain-specific data and business logic in the MVC application. It represents the shape of the data as public properties and business logic as methods.
