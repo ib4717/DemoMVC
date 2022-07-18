@@ -1,5 +1,6 @@
 # DemoMVC
 
+```
 Application Folder
 ├── Controllers
 ├── Models
@@ -8,7 +9,7 @@ Application Folder
     ├── css
     ├── js
     └── images
-
+```
 
 ## startup.cs
 ```
