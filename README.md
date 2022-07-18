@@ -20,9 +20,8 @@ Application Folder
 ### wwwroot
 ```
 Default directory to serve static files is wwwroot
-
-[More Information](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-6.0)
 ```
+[More Information](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-6.0)
 
 ## startup.cs
 ```
