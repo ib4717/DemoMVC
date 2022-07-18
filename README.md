@@ -1,4 +1,4 @@
-# DemoMVC
+# DemoMVC, ASP.NET Core
 
 ## Folder Structure
 ```
