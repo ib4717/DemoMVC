@@ -47,7 +47,7 @@ This will be the main layout of your application
 
 ## Layout for each controller
 Creating a view template
--> Create a razor page inside the 'view; folder which is mapped with controller, name it as "_ViewStart"
+-> Create a razor page inside the 'view' folder which is mapped with controller, name it as "_ViewStart"
 For example, Home view template
 ```
 Application Folder
