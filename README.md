@@ -38,3 +38,6 @@ Default directory to serve static files is wwwroot
 ## startup.cs
 Use Middleware to add more functions in the project in startup.cs
 To serve static files use = app.UseStaticFiles();
+
+## MVC Request life cycle
+![MVC Request life cycyle](https://media.geeksforgeeks.org/wp-content/uploads/20220218094015/RequestLifeCycle-660x246.png)
