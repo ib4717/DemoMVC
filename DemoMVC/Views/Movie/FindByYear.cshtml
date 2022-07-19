@@ -1,34 +1,53 @@
 <h2>Find Movie</h2>
 <hr />
-@using (Html.BeginForm("FindByYear", "Movie"))
+@using (Html.BeginForm())
 {
-    <p>Enter Year: <input type="text" id="movieyear" name="movieyear" /></p>
+    <p>
+        @*Enter Year: <input type="text" id="year" name="year" />*@
+        Select Year : @Html.DropDownList("year")
+    </p>
     <br />
-    <input class="btn" type="submit" value="Find" />
+    <input type="submit" value="Find" />
 }
 
-@if(ViewBag.Movies != null)
-    {
-    
+@if (ViewBag.Movies != null)
+{
+
     <table>
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Year</th>
-            <th>Rating</th>
-        </tr>
-    </thead>
-    @foreach (var data in ViewBag.Movies)
-    {
-        <tbody>
+        <thead>
             <tr>
-                <td>@data.Id</td>
-                <td>@data.Name</td>
-                <td>@data.Year</td>
-                <td>@data.Rating</td>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Message</th>
             </tr>
-        </tbody>
-    }
+        </thead>
+        @foreach (var data in ViewBag.Movies)
+        {
+            <tbody>
+                <tr>
+                    <td>@data.Id</td>
+                    <td>@data.Name</td>
+                    <td>@data.Year</td>
+                    <td>@data.Rating</td>
+                    @{
+                        int rating = data.Rating;
+                        string message = null;
+
+                        if (rating == 5)
+                            message = "Excellent";
+                        else if (rating == 4)
+                            message = "Very Good";
+                        else if (rating == 3)
+                            message = "Good";
+                        else if (rating == 2)
+                            message = "Poor";
+                        else message = "Very Poor";
+                    }
+                    <td>@message</td>
+                </tr>
+            </tbody>
+        }
     </table>
- }
+}

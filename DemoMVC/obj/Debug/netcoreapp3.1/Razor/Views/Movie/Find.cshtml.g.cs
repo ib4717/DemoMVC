@@ -12,7 +12,15 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/_ViewImports.cshtml"
+using DemoMVC.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"479be659bd38cdb74ecd8bb5f69a0e68afa14654", @"/Views/Movie/Find.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e98c291bb5f900476b3d1c047ae68c62caeff567", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Movie_Find : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

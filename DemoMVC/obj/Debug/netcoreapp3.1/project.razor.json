@@ -16,18 +16,28 @@
   "RootNamespace": "DemoMVC",
   "Documents": [
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/_ViewStart.cshtml",
-      "TargetPath": "Views\\Movie\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/Find.cshtml",
-      "TargetPath": "Views\\Movie\\Find.cshtml",
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Home/_ViewStart.cshtml",
+      "TargetPath": "Views\\Home\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/Index.cshtml",
+      "TargetPath": "Views\\Movie\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/_ViewStart.cshtml",
+      "TargetPath": "Views\\Movie\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -36,8 +46,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/FindByYear.cshtml",
-      "TargetPath": "Views\\Movie\\FindByYear.cshtml",
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Home/Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -46,23 +56,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Shared/MainLayout.cshtml",
-      "TargetPath": "Views\\Shared\\MainLayout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Home/Contact.cshtml",
-      "TargetPath": "Views\\Home\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Shared/MovieLayout.cshtml",
       "TargetPath": "Views\\Shared\\MovieLayout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/Index.cshtml",
-      "TargetPath": "Views\\Movie\\Index.cshtml",
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Shared/MainLayout.cshtml",
+      "TargetPath": "Views\\Shared\\MainLayout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -76,8 +76,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Home/_ViewStart.cshtml",
-      "TargetPath": "Views\\Home\\_ViewStart.cshtml",
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/FindByYear.cshtml",
+      "TargetPath": "Views\\Movie\\FindByYear.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/Views/Movie/Find.cshtml",
+      "TargetPath": "Views\\Movie\\Find.cshtml",
       "FileKind": "mvc"
     }
   ],

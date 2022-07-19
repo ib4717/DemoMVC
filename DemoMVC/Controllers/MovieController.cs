@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using DemoMVC.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DemoMVC.Controllers
 {
@@ -51,14 +52,29 @@ namespace DemoMVC.Controllers
         [HttpGet]
         public IActionResult FindByYear()
         {
+            DateTime now = DateTime.Today;
+            List<int> yearList = new List<int>();
+            for (int y = 2009; y <= Convert.ToInt32(now.ToString("yyyy")); y++)
+            {
+                yearList.Add(y);
+            }
+            ViewBag.year = new SelectList(yearList);
             return View();
         }
 
         [HttpPost]
-        public IActionResult FindByYear(int movieyear)
+        public IActionResult FindByYear(int year)
         {
+            DateTime now = DateTime.Today;
+            List<int> yearList = new List<int>();
+            for (int y = 2009; y <= Convert.ToInt32(now.ToString("yyyy")); y++)
+            {
+                yearList.Add(y);
+            }
+            ViewBag.year = new SelectList(yearList);
+
             List<Movie> movies = GetMovies();
-            var data = movies.Where(m => m.Year == movieyear);
+            var data = movies.Where(m => m.Year == year);
             ViewBag.Movies = data;
             return View("FindByYear", data);
         }

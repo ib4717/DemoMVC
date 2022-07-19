@@ -89,3 +89,12 @@ To serve static files use = app.UseStaticFiles();
 
 ## MVC Request life cycle
 ![MVC Request life cycyle](https://media.geeksforgeeks.org/wp-content/uploads/20220218094015/RequestLifeCycle-660x246.png)
+
+# Nuge Package Manager
+Install packages
+Microsoft.EntityFrameworkCore, version: 5.0.17
+Microsoft.EntityFrameworkCore.SqlServer, version: 5.0.17
+Microsoft.EntityFrameworkCore.Tools, version: 5.0.17
+
+# Use command for setting db-context and creating classes as per tables
+scaffold-dbcontext "Server=127.0.0.1,1433;Database=1026Db;User Id=SA;Password=" Microsoft.EntityframeworkCore.SqlServer  -outputdir models -table dept, emp

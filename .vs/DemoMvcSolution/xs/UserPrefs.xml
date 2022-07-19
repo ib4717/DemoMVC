@@ -1,35 +1,30 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{96691360-C6E5-44E4-8DD3-47D7AE16DCFE}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DemoMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoMVC/DemoMVC.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoMVC/Views/Movie/FindByYear.cshtml">
     <Files>
-      <File FileName="DemoMVC/Views/_ViewStart.cshtml" Line="2" Column="49" />
-      <File FileName="DemoMVC/Views/Shared/MainLayout.cshtml" Line="7" Column="8" />
-      <File FileName="DemoMVC/Views/Home/Index.cshtml" Line="4" Column="35" />
-      <File FileName="DemoMVC/Views/Home/_ViewStart.cshtml" Line="2" Column="49" />
-      <File FileName="DemoMVC/Views/Shared/HomeLayout.cshtml" Line="21" Column="8" />
-      <File FileName="DemoMVC/Views/Home/About.cshtml" Line="2" Column="29" />
-      <File FileName="DemoMVC/Views/Home/Contact.cshtml" Line="1" Column="10" />
-      <File FileName="DemoMVC/Controllers/HomeController.cs" Line="22" Column="41" />
-      <File FileName="DemoMVC/Views/Shared/MovieLayout.cshtml" Line="12" Column="41" />
-      <File FileName="DemoMVC/Views/Movie/_ViewStart.cshtml" Line="3" Column="2" />
-      <File FileName="DemoMVC/Views/Movie/Index.cshtml" Line="11" Column="24" />
-      <File FileName="DemoMVC/Views/Movie/List.cshtml" Line="27" Column="43" />
-      <File FileName="DemoMVC/Views/Movie/Find.cshtml" Line="8" Column="2" />
-      <File FileName="DemoMVC/DemoMVC.csproj" Line="17" Column="19" />
+      <File FileName="DemoMVC/Controllers/MovieController.cs" Line="74" Column="21" />
+      <File FileName="DemoMVC/Views/Movie/FindByYear.cshtml" Line="42" Column="46" />
+      <File FileName="DemoMVC/Views/Movie/Index.cshtml" Line="1" Column="13" />
+      <File FileName="DemoMVC/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="DemoMVC/wwwroot/css/Main.css" Line="30" Column="2" />
+      <File FileName="DemoMVC/Views/Movie/Find.cshtml" Line="7" Column="22" />
+      <File FileName="DemoMVC/Views/_ViewStart.cshtml" Line="3" Column="2" />
+      <File FileName="DemoMVC/Views/_ViewImports.cshtml" Line="1" Column="22" />
+      <File FileName="DemoMVC/Views/Movie/List.cshtml" Line="4" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DemoMvcSolution" expanded="True">
-            <Node name="DemoMVC" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="DemoMVC" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
                 <Node name="Movie" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -40,5 +35,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

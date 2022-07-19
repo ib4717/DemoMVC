@@ -113,3 +113,4 @@
 /Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/obj/Debug/netcoreapp3.1/Razor/Views/Shared/MovieLayout.cshtml.g.cs
 /Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/obj/Debug/netcoreapp3.1/Razor/Views/Movie/_ViewStart.cshtml.g.cs
 /Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/obj/Debug/netcoreapp3.1/Razor/Views/Movie/FindByYear.cshtml.g.cs
+/Volumes/Study/LTI/DotNet/ASP.NET/DemoMvcSolution/DemoMVC/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
